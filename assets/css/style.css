@@ -1,0 +1,861 @@
+body {
+	font-family: "Manrope", sans-serif;
+	text-rendering: optimizeLegibility;
+	font-size: 16px;
+}
+
+.bg-red-light {
+	background-color: #ed7168 !important;
+}
+
+.bg-green-light {
+	background-color: #b6d963 !important;
+}
+
+.bg-blue-lighter {
+	background-color: #00cacc !important;
+}
+
+.bg-orange-light {
+	background-color: #fdd98a !important;
+}
+
+.bg-pink {
+	background-color: #e878b0 !important;
+}
+
+.bg-blue {
+	background-color: #2a00ff !important;
+}
+
+.bg-blue-light {
+	background-color: #83bed0 !important;
+}
+
+.bg-purple-light {
+	background-color: #a497e6 !important;
+}
+
+.bg-blue-dark {
+	background-color: #002351;
+}
+
+.text-bg-blue {
+	color: #fff !important;
+	background-color: rgb(0 0 0 / 53%);
+	background-blend-mode: overlay;
+}
+
+#header {
+	background-color: #f7f7f7;
+}
+
+#header .logo {
+	background: url(../img/logo3.png) no-repeat;
+	background-position: center center;
+	height: 100px;
+	width: 100px;
+	background-size: 100px;
+	border-radius: 370px;
+	padding: 0;
+	margin: 0;
+}
+
+#header .menu .nav-item {
+	position: relative;
+	padding: 0 5px;
+}
+
+#header .menu .nav-item .nav-link {
+	font-family: "Manrope", sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+#header .menu .nav-item .nav-link::after {
+	content: "";
+	position: absolute;
+	bottom: 12px;
+	right: 0;
+	height: 20px;
+	border: 1px solid orange;
+}
+
+#header .menu .nav-item.metodologia .nav-link::after {
+	border-color: #ed7168;
+}
+
+#header .menu .nav-item.pasala .nav-link::after {
+	border-color: #b6d963;
+}
+
+#header .menu .nav-item.pae .nav-link::after {
+	border-color: #00cacc;
+}
+
+#header .menu .nav-item.nosotros .nav-link::after {
+	border-color: #fdd98a;
+}
+
+#header .menu .nav-item.cursos .nav-link::after {
+	border-color: #e878b0;
+}
+
+#header .menu .nav-item.recomendacion .nav-link::after {
+	border-color: #2a00ff;
+}
+
+#header .menu .nav-item.faq .nav-link::after {
+	border-color: #83bed0;
+}
+
+#header .menu .nav-item.planes .nav-link::after {
+	/* border-color: #a497e6; */
+	border-color: transparent;
+}
+
+#header .menu .nav-item .nav-link .icon {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+#hero {
+	padding: 77px 0;
+	background: url(../img/hero-left.png), url(../img/hero-right.png);
+	background-position: left bottom, right bottom;
+	background-repeat: no-repeat;
+	background-size: 204px;
+	background-attachment: fixed;
+}
+
+#hero .subtitulo {
+	font-family: "Sharp Grotesk Light 20", sans-serif;
+	color: #00cacb;
+	font-size: 21px;
+}
+
+#hero .subtitulo-bottom {
+	font-family: "Sharp Grotesk Light 20", sans-serif;
+	font-size: 15px;
+}
+
+#hero .titulo {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 41px;
+}
+
+#hero .box.icons {
+	position: relative;
+	background-color: #fff;
+	border: 2px solid #edecec;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+#hero .box.icons img {
+	max-height: 150px;
+	object-fit: contain;
+}
+
+#hero .bg-green {
+	background-color: #00bf63;
+}
+
+#hero .box .title {
+	border-top: 2px solid #000;
+}
+
+#hero .actions {
+	margin-top: 40px;
+}
+
+#hero .actions a,
+#hero .actions button {
+	font-family: "Sharp Grotesk Light 20", sans-serif;
+	font-size: 18px;
+	border-radius: 30px;
+	padding: 20px 10px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
+
+#hero .actions .whatsapp {
+	background-color: #29a744;
+	border-color: #29a744;
+}
+
+#hero .actions .cursos {
+	background-color: #ff294f;
+	border-color: #ff294f;
+}
+
+#hero .actions i {
+	font-size: 24px;
+}
+
+#pasala {
+	background: url("../img/bg-pasala.jpg") no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px 0;
+}
+
+#pasala .titulo {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 41px;
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+#pasala .card img {
+	width: 100px;
+	margin: 0 auto;
+	height: 100px;
+	object-fit: fill;
+	border: 6px solid #fff !important;
+	background-color: #e9ebf1;
+}
+
+#pasala .card i {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	font-size: 3rem;
+	border: 6px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #7541d7;
+	color: #fff;
+}
+
+#pasala .card .card-title {
+	color: #fff;
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+    font-size: 18px;
+	margin-bottom: 20px;
+}
+
+#pasala .card .card-text {
+	color: #fff;
+}
+
+#comopasarlaprueba {
+	background-color: #004aad;
+	padding: 100px 0;
+}
+
+#comopasarlaprueba .card h3 {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+    font-size: 24px;
+}
+
+#comopasarlaprueba .titulo {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 41px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+#sobrenosotros {
+	background-color: #eff4fa;
+	padding: 100px 0;
+}
+
+#sobrenosotros .polygon {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='130' height='130'%3E%3Cpath stroke='none' fill='%2320be86' d='M60.5 3.5980762113533a9 9 0 0 1 9 0l46.425625842204 26.803847577293a9 9 0 0 1 4.5 7.7942286340599l0 53.607695154587a9 9 0 0 1 -4.5 7.7942286340599l-46.425625842204 26.803847577293a9 9 0 0 1 -9 0l-46.425625842204 -26.803847577293a9 9 0 0 1 -4.5 -7.79422863406l0 -53.607695154587a9 9 0 0 1 4.5 -7.7942286340599'%3E%3C/path%3E%3C/svg%3E");
+	background-repeat: no-repeat no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#sobrenosotros .titulo {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 41px;
+	color: #e53c4d;
+	margin-bottom: 10px;
+}
+
+#sobrenosotros .subtitulo {
+	font-family: "Sharp Grotesk Light 20", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #6d6e70;
+}
+
+#sobrenosotros .misionv h2 {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 30px;
+	color: #e43b4d;
+}
+
+#sobrenosotros .misionv p {
+	font-family: "Sharp Grotesk Light 20", sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+#sobrenosotros .card-title {
+	margin-bottom: 0;
+}
+
+#sobrenosotros .card-title a {
+	color: #e43b4d;
+	text-decoration: none;
+	font-family: "Sharp Grotesk Bold 20", sans-serif;
+    font-size: 18px;
+}
+
+#cursos {
+	background: url("../img/bg-cursos.jpg") no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px 0;
+}
+
+#cursos .titulo {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 41px;
+	color: #1f95fe;
+	margin-bottom: 50px;
+}
+
+#cursos .card.matematicas {
+	border-radius: 25px 25px 0 0;
+}
+
+#cursos .card.matematicas .card-header {
+	background-image: url(../img/icon_c_h_m.png);
+	background-repeat: no-repeat;
+	min-height: 160px;
+	background-size: 180px;
+	background-position: center 75px;
+	border-radius: 25px 25px 0 0;
+	background-color: #1b90fe;
+}
+
+#cursos .card.matematicas .card-header .card-header-title {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 18px;
+}
+
+#cursos .card.matematicas .card-header p {
+	font-family: "Sharp Grotesk Light 15", sans-serif;
+	font-size: 15px;
+}
+
+#cursos .card.matematicas .card-body {
+	border-right: 2px solid #1b90fe;
+	border-left: 2px solid #1b90fe;
+	border-bottom: 2px solid #1b90fe;
+	border-radius: 0px 0px 25px 25px;
+}
+
+#cursos .card.matematicas .card-body .card-title {
+	font-family: "Sharp Grotesk Medium 20", sans-serif;
+	font-size: 16px;
+	color: #1b90fe;
+}
+
+#cursos .card.matematicas .card-body .card-text {
+	font-family: "Sharp Grotesk Light 15", sans-serif;
+	font-size: 14px;
+}
+
+#cursos .card.matematicas .card-body .card-text-footer {
+	font-family: "Sharp Grotesk Medium 20", sans-serif;
+	font-size: 14px;
+	display: flex;
+	color: #1b90fe;
+}
+
+#cursos .card.matematicas .card-body .line-trough {
+	text-decoration: line-through;
+	color: gray;
+}
+
+#cursos .card.matematicas .card-body .inscribir {
+	background-color: #1b90fe;
+	border-color: #1b90fe;
+}
+
+/* fisica */
+#cursos .card.fisica {
+	border-radius: 25px 25px 0 0;
+}
+
+#cursos .card.fisica .card-header {
+	background-image: url(../img/fisica.png);
+	background-repeat: no-repeat;
+	min-height: 160px;
+	background-size: 180px;
+	background-position: center 60px;
+	border-radius: 25px 25px 0 0;
+	background-color: #ff6801;
+}
+
+#cursos .card.fisica .card-header .card-header-title {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 18px;
+}
+
+#cursos .card.fisica .card-header p {
+	font-family: "Sharp Grotesk Light 15", sans-serif;
+	font-size: 15px;
+}
+
+#cursos .card.fisica .card-body {
+	border-right: 2px solid #ff6801;
+	border-left: 2px solid #ff6801;
+	border-bottom: 2px solid #ff6801;
+	border-radius: 0px 0px 25px 25px;
+}
+
+#cursos .card.fisica .card-body .card-title {
+	font-family: "Sharp Grotesk Medium 20", sans-serif;
+	font-size: 16px;
+	color: #ff6801;
+}
+
+#cursos .card.fisica .card-body .card-text {
+	font-family: "Sharp Grotesk Light 15", sans-serif;
+	font-size: 14px;
+}
+
+#cursos .card.fisica .card-body .card-text-footer {
+	font-family: "Sharp Grotesk Medium 20", sans-serif;
+	font-size: 14px;
+	display: flex;
+	color: #ff6801;
+}
+
+#cursos .card.fisica .card-body .line-trough {
+	text-decoration: line-through;
+	color: gray;
+}
+
+#cursos .card.fisica .card-body .inscribir {
+	background-color: #ff6801;
+	border-color: #ff6801;
+}
+
+/* biologia */
+#cursos .card.biologia {
+	border-radius: 25px 25px 0 0;
+}
+
+#cursos .card.biologia .card-header {
+	background-image: url(../img/biologia.png);
+	background-repeat: no-repeat;
+	min-height: 160px;
+	background-size: 180px;
+	background-position: center 55px;
+	border-radius: 25px 25px 0 0;
+	background-color: #00d082;
+}
+
+#cursos .card.biologia .card-header .card-header-title {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 18px;
+}
+
+#cursos .card.biologia .card-header p {
+	font-family: "Sharp Grotesk Light 15", sans-serif;
+	font-size: 15px;
+}
+
+#cursos .card.biologia .card-body {
+	border-right: 2px solid #00d082;
+	border-left: 2px solid #00d082;
+	border-bottom: 2px solid #00d082;
+	border-radius: 0px 0px 25px 25px;
+}
+
+#cursos .card.biologia .card-body .card-title {
+	font-family: "Sharp Grotesk Medium 20", sans-serif;
+	font-size: 16px;
+	color: #00d082;
+}
+
+#cursos .card.biologia .card-body .card-text {
+	font-family: "Sharp Grotesk Light 15", sans-serif;
+	font-size: 14px;
+}
+
+#cursos .card.biologia .card-body .card-text-footer {
+	font-family: "Sharp Grotesk Medium 20", sans-serif;
+	font-size: 14px;
+	display: flex;
+	color: #00d082;
+}
+
+#cursos .card.biologia .card-body .line-trough {
+	text-decoration: line-through;
+	color: gray;
+}
+
+#cursos .card.biologia .card-body .inscribir {
+	background-color: #00d082;
+	border-color: #00d082;
+}
+
+/* quimica */
+#cursos .card.quimica {
+	border-radius: 25px 25px 0 0;
+}
+
+#cursos .card.quimica .card-header {
+	background-image: url(../img/quimica.png);
+	background-repeat: no-repeat;
+	min-height: 160px;
+	background-size: 180px;
+	background-position: center 55px;
+	border-radius: 25px 25px 0 0;
+	background-color: #b70fac;
+}
+
+#cursos .card.quimica .card-header .card-header-title {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 18px;
+}
+
+#cursos .card.quimica .card-header p {
+	font-family: "Sharp Grotesk Light 15", sans-serif;
+	font-size: 15px;
+}
+
+#cursos .card.quimica .card-body {
+	border-right: 2px solid #b70fac;
+	border-left: 2px solid #b70fac;
+	border-bottom: 2px solid #b70fac;
+	border-radius: 0px 0px 25px 25px;
+}
+
+#cursos .card.quimica .card-body .card-title {
+	font-family: "Sharp Grotesk Medium 20", sans-serif;
+	font-size: 16px;
+	color: #b70fac;
+}
+
+#cursos .card.quimica .card-body .card-text {
+	font-family: "Sharp Grotesk Light 15", sans-serif;
+	font-size: 14px;
+}
+
+#cursos .card.quimica .card-body .card-text-footer {
+	font-family: "Sharp Grotesk Medium 20", sans-serif;
+	font-size: 14px;
+	display: flex;
+	color: #b70fac;
+}
+
+#cursos .card.quimica .card-body .line-trough {
+	text-decoration: line-through;
+	color: gray;
+}
+
+#cursos .card.quimica .card-body .inscribir {
+	background-color: #b70fac;
+	border-color: #b70fac;
+}
+
+/* historia y ciencias sociales */
+#cursos .card.historia_cs {
+	border-radius: 25px 25px 0 0;
+}
+
+#cursos .card.historia_cs .card-header {
+	background-image: url(../img/icon_h_cs.png);
+	background-repeat: no-repeat;
+	min-height: 160px;
+	background-size: 180px;
+	background-position: center 75px;
+	border-radius: 25px 25px 0 0;
+	background-color: #d14c3b;
+}
+
+#cursos .card.historia_cs .card-header .card-header-title {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 18px;
+}
+
+#cursos .card.historia_cs .card-header p {
+	font-family: "Sharp Grotesk Light 15", sans-serif;
+	font-size: 15px;
+}
+
+#cursos .card.historia_cs .card-body {
+	border-right: 2px solid #d14c3b;
+	border-left: 2px solid #d14c3b;
+	border-bottom: 2px solid #d14c3b;
+	border-radius: 0px 0px 25px 25px;
+}
+
+#cursos .card.historia_cs .card-body .card-title {
+	font-family: "Sharp Grotesk Medium 20", sans-serif;
+	font-size: 16px;
+	color: #d14c3b;
+}
+
+#cursos .card.historia_cs .card-body .card-text {
+	font-family: "Sharp Grotesk Light 15", sans-serif;
+	font-size: 14px;
+}
+
+#cursos .card.historia_cs .card-body .card-text-footer {
+	font-family: "Sharp Grotesk Medium 20", sans-serif;
+	font-size: 14px;
+	display: flex;
+	color: #d14c3b;
+}
+
+#cursos .card.historia_cs .card-body .line-trough {
+	text-decoration: line-through;
+	color: gray;
+}
+
+#cursos .card.historia_cs .card-body .inscribir {
+	background-color: #d14c3b;
+	border-color: #d14c3b;
+}
+
+#recomendacion {
+	padding: 100px 0;
+}
+
+#recomendacion .titulo {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 41px;
+	color: #1f95fe;
+	margin-bottom: 20px;
+}
+
+#recomendacion .subtitulo {
+	font-family: "Sharp Grotesk Light 15", sans-serif;
+	font-size: 41px;
+	color: #949495;
+	margin-bottom: 50px;
+}
+
+#recomendacion .card.recomendacion {
+	border-color: #e5e5e5;
+	background-image: url("../img/quotes.png");
+	background-repeat: no-repeat;
+	background-size: 150px;
+	background-position: top left;
+}
+
+#recomendacion .card.recomendacion .card-body p {
+	font-family: "Sharop Grotesk Light 15", sans-serif;
+	font-size: 14px;
+}
+
+/* preguntas frecuentes */
+#faq {
+	padding: 100px 0;
+	background-color: #fec200;
+}
+
+#faq .titulo {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 41px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+/* planes */
+#planes {
+	padding: 100px 0;
+}
+
+#planes .titulo {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 41px;
+	color: #fdc100;
+	margin-bottom: 20px;
+}
+
+#planes .icon-pack {
+	width: 60px;
+	rotate: 320deg;
+	left: -22px;
+	top: -10px;
+}
+
+#planes .card.green {
+	border: 2px dashed #198754;
+	border-radius: 10px;
+}
+
+#planes .card.red {
+	border: 2px dashed #961b0d;
+	border-radius: 10px;
+}
+
+#planes .card.orange {
+	border: 2px dashed #d68a18;
+	border-radius: 10px;
+}
+
+#planes .card.pack {
+	margin-bottom: 20px;
+}
+
+#planes .card.pack .card-header {
+	min-height: 93px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+}
+
+#planes .bg-check-yellow {
+	background: url("../img/2.png") no-repeat center center;
+	background-size: 30px;
+	height: 30px;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+#planes .bg-check-yellow-small {
+	background-color: #fdc209;
+	height: 15px;
+	width: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 17px;
+	margin-left: 7px;
+	border-radius: 50%;
+}
+
+#planes .bg-check-green {
+	background: url("../img/1.png") no-repeat center center;
+	background-size: 30px;
+	height: 30px;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+#planes .bg-check-green-small {
+	background-color: #198655;
+	height: 15px;
+	width: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 17px;
+	margin-left: 7px;
+	border-radius: 50%;
+}
+
+#planes .bg-check-red {
+	background-color: #961b0d;
+	height: 26px;
+	width: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	margin-right: 13px;
+	margin-left: 2px;
+	clip-path: polygon(
+		50% 0%,
+		100% 25%,
+		100% 75%,
+		50% 100%,
+		50% 100%,
+		0 75%,
+		0 25%
+	);
+}
+
+#planes .bg-check-red-small {
+	background-color: #961b0d;
+	height: 15px;
+	width: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 17px;
+	margin-left: 7px;
+	border-radius: 50%;
+}
+
+/* contacto */
+#contacto {
+	padding: 100px 0;
+	background-color: #f5f5f5;
+}
+
+#contacto .titulo {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 41px;
+	color: #e17068;
+	margin-bottom: 20px;
+}
+
+#contacto input.nombre {
+	border: 2px solid #e8bf60;
+}
+
+#contacto input.email {
+	border: 2px solid #b9ce81;
+}
+
+#contacto textarea.mensaje {
+	border: 2px solid #8dbcd0;
+	resize: none;
+}
+
+#contacto input.send {
+	background-color: #ea6e6a;
+	border-color: #ea6e6a;
+	color: #fff;
+}
+
+/* FOOTER */
+#footer {
+	background-color: #000064;
+	padding: 100px 0 30px 0;
+}
+
+#footer .sigue {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 1;
+}
+
+.zindex-2 {
+	z-index: 2;
+	position: relative;
+}
+
+#curso h1 {
+	font-family: "Sharp Grotesk SemiBold 20", sans-serif;
+	font-size: 41px;
+}
+
+.bg-gray {
+	background-color: #f5f5f5;
+}

@@ -1,0 +1,2748 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Pasala</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<link
+			href="https://vjs.zencdn.net/8.0.4/video-js.css"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="./assets/css/fonts.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
+	<body>
+		<header id="header">
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<a class="navbar-brand logo" href="#"> </a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div
+						class="collapse navbar-collapse"
+						id="navbarSupportedContent"
+					>
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu">
+							<li class="nav-item home">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="#"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-warning"
+											style="
+												background: url('./assets/img/home.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										Home
+									</div>
+								</a>
+							</li>
+							<li class="nav-item metodologia d-none">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="#metodologia"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-red-light"
+											style="
+												background: url('./assets/img/list.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										Metodologías
+									</div>
+								</a>
+							</li>
+							<li class="nav-item pasala">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="#pasala"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-green-light"
+											style="
+												background: url('./assets/img/internet.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										¿Por qué elegirnos?
+									</div>
+								</a>
+							</li>
+							<li class="nav-item pae">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="#comopasarlaprueba"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-blue-lighter"
+											style="
+												background: url('./assets/img/examen.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										Metodología
+									</div>
+								</a>
+							</li>
+							<li class="nav-item nosotros">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="#sobrenosotros"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-orange-light"
+											style="
+												background: url('./assets/img/contact-us.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										Nosotros
+									</div>
+								</a>
+							</li>
+							<li class="nav-item cursos">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="#cursos"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-pink"
+											style="
+												background: url('./assets/img/folder.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										Cursos
+									</div>
+								</a>
+							</li>
+							<li class="nav-item recomendacion">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="#recomendacion"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-blue"
+											style="
+												background: url('./assets/img/feedback.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										Recomendación
+									</div>
+								</a>
+							</li>
+							<li class="nav-item faq">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="#faq"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-blue-light"
+											style="
+												background: url('./assets/img/help.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										FAQ
+									</div>
+								</a>
+							</li>
+							<li class="nav-item planes">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="#planes"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-purple-light"
+											style="
+												background: url('./assets/img/calendar.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										Planes
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<section id="hero" class="bg-white">
+			<div class="container">
+				<div class="row mb-3">
+					<div class="col-12 col-lg-8 mx-auto">
+						<p class="subtitulo mb-4 fw-bold text-center">
+							Preuniversitario Pásala 100% online
+						</p>
+						<h1 class="titulo mb-4 text-center">
+							¡No enfrentes la prueba solo! #PASALAPAES con
+							nosotros
+						</h1>
+						<p class="subtitulo-bottom mb-4 text-center fw-bold">
+							Te entregamos todas las herramientas necesarias para
+							lograr entrar a la carrera de tus sueños
+						</p>
+						<div
+							class="d-grid gap-2 d-sm-flex justify-content-sm-center actions"
+						>
+							<a
+								href="https://wa.me/56961058148"
+								class="btn btn-success btn-lg px-4 me-sm-3 fw-semibold whatsapp"
+								target="_blank"
+							>
+								<i class="fab fa-whatsapp"></i>
+								Escríbenos
+							</a>
+							<button
+								type="button"
+								class="btn btn-warning btn-lg px-4 fw-semibold cursos"
+								onclick="goTo('#planes')"
+							>
+								<i class="fa-solid fa-book"></i>
+								Ver cursos disponibles
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5 py-5 d-none">
+					<div class="col-12 col-sm-3 col-md-3 mt-md-5 mb-3 mb-md-0">
+						<div class="box h-auto position-relative icons">
+							<div class="img">
+								<img
+									src="./assets/img/metodologia.png"
+									alt=""
+									width="100%"
+								/>
+							</div>
+							<h2
+								class="title bg-yellow text-dark fs-bold text-center py-2 m-0 h6"
+							>
+								Metodología <b>ENFOCADA</b> en PAES
+							</h2>
+						</div>
+					</div>
+					<div class="col-12 col-sm-3 col-md-3 mt-md-0 mb-3 mb-md-0">
+						<div class="box h-auto position-relative icons">
+							<div class="img bg-green">
+								<img
+									src="./assets/img/profesor.png"
+									alt=""
+									width="100%"
+								/>
+							</div>
+							<h2
+								class="title bg-yellow text-dark fs-bold text-center py-2 m-0 h6"
+							>
+								Profesores <b>EXPERTOS</b> en PAES
+							</h2>
+						</div>
+					</div>
+					<div class="col-12 col-sm-3 col-md-3 mt-md-5 mb-3 mb-md-0">
+						<div class="box h-auto position-relative icons">
+							<div class="img bg-white">
+								<img
+									src="./assets/img/compania.png"
+									alt=""
+									width="100%"
+								/>
+							</div>
+							<h2
+								class="title bg-yellow text-dark fs-bold text-center py-2 m-0 h6"
+							>
+								Compañía en <b>TODO</b> momento en la comunidad
+								PASALA
+							</h2>
+						</div>
+					</div>
+					<div class="col-12 col-sm-3 col-md-3 mt-md-0 mb-3 mb-md-0">
+						<div class="box h-auto position-relative icons">
+							<div class="img bg-white">
+								<img
+									src="./assets/img/books.png"
+									alt=""
+									width="100%"
+								/>
+							</div>
+							<h2
+								class="title bg-yellow text-dark fs-bold text-center py-2 m-0 h6"
+							>
+								Material <b>ORIGINAL</b> enfocado en la PAES
+							</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="pasala">
+			<div class="container">
+				<div class="row mb-4">
+					<div class="col-12">
+						<h2 class="titulo text-center">
+							¿Por qué elegir Pásala?
+						</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 mb-4">
+						<div class="card border-0 bg-transparent">
+							<img
+								src="./assets/img/profesores.png"
+								class="card-img-top rounded-4 border"
+								alt="..."
+							/>
+							<div class="card-body text-center">
+								<h5 class="card-title fw-bolder">
+									Profesores con gran trayectoria y de
+									calidad.
+								</h5>
+								<p class="card-text text-left">
+									La mayoría de nuestros profesores poseen
+									posgrado y una larga trayectoria preparando
+									alumnos.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 mb-4">
+						<div class="card border-0 bg-transparent">
+							<img
+								src="./assets/img/books.png"
+								class="card-img-top rounded-4 border"
+								alt="..."
+							/>
+							<div class="card-body text-center">
+								<h5 class="card-title fw-bolder">
+									Cursos personalizados para enfrentar la
+									PAES.
+								</h5>
+								<p class="card-text text-left">
+									Cada curso posee una metodología creada por
+									una preparación de calidad.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 mb-4">
+						<div class="card border-0 bg-transparent">
+							<img
+								src="./assets/img/materiales.png"
+								class="card-img-top rounded-4 border"
+								alt="..."
+							/>
+							<div class="card-body text-center">
+								<h5 class="card-title fw-bolder">
+									Material original enfocada a la PAES.
+								</h5>
+								<p class="card-text text-left">
+									Nuestro material fue diseñado exclusivamente
+									para que el alumno adquiera y refuerce los
+									conocimientos y habilidades medidas por el
+									DEMRE.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 mb-4">
+						<div class="card border-0 bg-transparent">
+							<i
+								class="fa-solid fa-hand-holding-dollar card-img-top rounded-4"
+							></i>
+							<div class="card-body text-center">
+								<h5 class="card-title fw-bolder">
+									Una preparación de calidad a un precio
+									justo.
+								</h5>
+								<p class="card-text text-left">
+									Nuestra principal misión es acompañar a los
+									alumnos en este difícil proceso con una
+									preparación completa y de calidad a un bajo
+									costo.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="comopasarlaprueba" class="bg-blue-dark">
+			<div class="container">
+				<div class="row mb-4">
+					<div class="col-12">
+						<h2 class="titulo text-center">
+							¿Cómo pasar la prueba?
+						</h2>
+					</div>
+				</div>
+
+				<div
+					class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5"
+				>
+					<div class="col">
+						<div
+							class="card card-cover h-100 overflow-hidden text-bg-blue rounded-4 shadow-lg"
+							style="
+								background-image: url('./assets/img/bienvenido.png');
+								background-repeat: no-repeat;
+								background-size: cover;
+							"
+						>
+							<div
+								class="d-flex flex-column h-100 p-4 pb-3 text-white text-shadow-1"
+							>
+								<h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">
+									Bienvenida
+								</h3>
+								<ul
+									class="small list-group list-unstyled mt-auto border-0 rounded-0"
+									data-bs-theme="dark"
+								>
+									<li
+										class="bg-blue-dark border-0 list-group-item ps-0 d-flex justify-content-between align-items-start text-white"
+									>
+										<div class="ms-2 me-auto">
+											<div class="">
+												<i
+													class="fas fa-arrow-right me-2"
+												></i
+												>Nos presentamos en videollamada
+												grupal
+											</div>
+										</div>
+									</li>
+									<li
+										class="bg-blue-dark border-0 list-group-item ps-0 d-flex justify-content-between align-items-start text-white"
+									>
+										<div class="ms-2 me-auto">
+											<div class="">
+												<i
+													class="fas fa-arrow-right me-2"
+												></i
+												>Prueba diagnóstico
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div
+							class="card card-cover h-100 overflow-hidden text-bg-blue rounded-4 shadow-lg"
+							style="
+								background-image: url('./assets/img/clase_online.png');
+								background-repeat: no-repeat;
+								background-size: cover;
+							"
+						>
+							<div
+								class="d-flex flex-column h-100 p-4 pb-3 text-white text-shadow-1"
+							>
+								<h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">
+									Clases online en vivo
+								</h3>
+								<ul
+									class="small list-group list-unstyled mt-auto border-0 rounded-0"
+									data-bs-theme="dark"
+								>
+									<li
+										class="bg-blue-dark border-0 list-group-item ps-0 d-flex justify-content-between align-items-start text-white"
+									>
+										<div class="ms-2 me-auto">
+											<div class="">
+												<i
+													class="fas fa-arrow-right me-2"
+												></i
+												>Estas quedan grabadas y
+												posteriormente editadas para su
+												mejor comprensión
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div
+							class="card card-cover h-100 overflow-hidden text-bg-blue rounded-4 shadow-lg"
+							style="
+								background-image: url('./assets/img/ejercitacion.png');
+								background-repeat: no-repeat;
+								background-size: cover;
+							"
+						>
+							<div
+								class="d-flex flex-column h-100 p-4 pb-3 text-white text-shadow-1"
+							>
+								<h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">
+									Ejercitación
+								</h3>
+								<ul
+									class="small list-group list-unstyled mt-auto border-0 rounded-0"
+									data-bs-theme="dark"
+								>
+									<li
+										class="bg-blue-dark border-0 list-group-item ps-0 d-flex justify-content-between align-items-start text-white"
+									>
+										<div class="ms-2 me-auto">
+											<div class="">
+												<i
+													class="fas fa-arrow-right me-2"
+												></i
+												>Guías de teoría y ejercitación
+												para cada tema
+											</div>
+										</div>
+									</li>
+									<li
+										class="bg-blue-dark border-0 list-group-item ps-0 d-flex justify-content-between align-items-start text-white"
+									>
+										<div class="ms-2 me-auto">
+											<div class="">
+												<i
+													class="fas fa-arrow-right me-2"
+												></i
+												>2 ensayos hechos de forma
+												<b>EXCLUSIVA</b> para la PAES
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div
+							class="card card-cover h-100 overflow-hidden text-bg-blue rounded-4 shadow-lg"
+							style="
+								background-image: url('./assets/img/dudas.png');
+								background-repeat: no-repeat;
+								background-size: cover;
+							"
+						>
+							<div
+								class="d-flex flex-column h-100 p-4 pb-3 text-white text-shadow-1"
+							>
+								<h3 class="pt-5 mt-5 mb-4 lh-1 fw-bold">
+									Dudas luego de clases
+								</h3>
+								<ul
+									class="list-group list-unstyled mt-auto border-0 rounded-0 small"
+									data-bs-theme="dark"
+								>
+									<li
+										class="bg-blue-dark border-0 list-group-item ps-0 d-flex justify-content-between align-items-start text-white"
+									>
+										<div class="ms-2 me-auto">
+											<div class="">
+												<i
+													class="fas fa-arrow-right me-2"
+												></i>
+												Dudas ilimitadas en nuestra
+												comunidad
+											</div>
+										</div>
+									</li>
+									<li
+										class="bg-blue-dark border-0 list-group-item ps-0 d-flex justify-content-between align-items-start text-white"
+									>
+										<div class="ms-2 me-auto">
+											<div class="">
+												<i
+													class="fas fa-arrow-right me-2"
+												></i>
+												Grupos de estudios
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="sobrenosotros">
+			<div class="container">
+				<div class="row mb-4">
+					<div class="col-12">
+						<h2 class="titulo text-center">Sobre nosotros</h2>
+						<p class="subtitulo text-center">
+							Un equipo imparable para enfrentar este desafío.
+						</p>
+					</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-12 col-md-6">
+						<div class="bg-white rounded-5 py-5 px-5 misionv">
+							<h2 class="text-center">Nuestra Misión</h2>
+							<p class="">
+								Entregar las herramientas y metodologías
+								necesarias para entregar un servicio de calidad
+								hacia los estudiantes a un precio justo.
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="bg-white rounded-5 py-5 px-5 misionv">
+							<h2 class="text-center">Nuestra Visión</h2>
+							<p class="">
+								Que cualquiera pueda preparar la PAES con
+								nosotros.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row mb-4 g-4">
+					<div class="col-sm-6 col-lg-4 col-xl-3">
+						<div class="card shadow border-0 rounded-5 h-100">
+							<div class="position-relative pt-3">
+								<!-- Image -->
+								<div class="polygon"></div>
+								<div
+									style="
+										background: url(./assets/img/mikjel.jpg)
+											no-repeat center center;
+										background-size: cover;
+										height: 120px;
+										object-fit: cover;
+										width: 110px;
+										background-color: #607d8b;
+										margin: 0 auto;
+										clip-path: polygon(
+											50% 0%,
+											100% 25%,
+											100% 75%,
+											50% 100%,
+											50% 100%,
+											0 75%,
+											0 25%
+										);
+										image-rendering: optimizequality;
+										background-blend-mode: overlay;
+									"
+									class="card-image zoom"
+								></div>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body">
+								<ul
+									class="nav justify-content-center mb-2 d-none"
+								>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i
+												class="fa-brands fa-instagram"
+											></i>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i
+												class="fa-brands fa-facebook"
+											></i>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i class="fa-brands fa-twitter"></i>
+										</a>
+									</li>
+								</ul>
+
+								<!-- Title -->
+								<h5 class="card-title text-center">
+									<a href="curso-detalle.html" class=""
+										>Mikjel Kramarenko</a
+									>
+								</h5>
+
+								<p class="text-center">Fundador</p>
+
+								<p class="text-center">
+									Ingeniero civil industrial con ganas de
+									entregar una preparación de calidad tal que
+									cualquiera pueda prepararse para la PAES y a
+									un precio accesible.
+								</p>
+							</div>
+							<!-- Card body END -->
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-4 col-xl-3">
+						<div class="card shadow border-0 rounded-5 h-100">
+							<div class="position-relative pt-3">
+								<!-- Image -->
+								<div
+									style="
+										background: url(./assets/img/Carol.jfif)
+											no-repeat center center;
+										background-size: cover;
+										height: 120px;
+										/* clip-path: polygon(50% 0%, 100% 49%, 50% 100%, 48% 100%, 0 48%); */
+										object-fit: cover;
+										width: 110px;
+										background-color: #607d8b;
+										margin: 0 auto;
+										clip-path: polygon(
+											50% 0%,
+											100% 25%,
+											100% 75%,
+											50% 100%,
+											50% 100%,
+											0 75%,
+											0 25%
+										);
+										image-rendering: optimizequality;
+										background-blend-mode: overlay;
+									"
+									class="card-image zoom"
+								></div>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body">
+								<ul
+									class="nav justify-content-center mb-2 d-none"
+								>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i
+												class="fa-brands fa-instagram"
+											></i>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i
+												class="fa-brands fa-facebook"
+											></i>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i class="fa-brands fa-twitter"></i>
+										</a>
+									</li>
+								</ul>
+
+								<!-- Title -->
+								<h5 class="card-title text-center">
+									<a href="curso-detalle.html" class=""
+										>Carol Berrios</a
+									>
+								</h5>
+
+								<p class="text-center">Profesora de Biología</p>
+
+								<p class="text-center">
+									Biologa (PUC), enfermera (UCH) y con
+									estudios de pedagogía(UAH). Cuenta con más
+									de 10 años de experiencia en
+									preuniversitarios y apoyo académico a
+									alumnos.
+								</p>
+							</div>
+							<!-- Card body END -->
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-4 col-xl-3">
+						<div class="card shadow border-0 rounded-5 h-100">
+							<div class="position-relative pt-3">
+								<!-- Image -->
+								<div
+									style="
+										background: url(./assets/img/Katherin.jpg)
+											no-repeat center center;
+										background-size: cover;
+										height: 120px;
+										/* clip-path: polygon(50% 0%, 100% 49%, 50% 100%, 48% 100%, 0 48%); */
+										object-fit: cover;
+										width: 110px;
+										background-color: #607d8b;
+										margin: 0 auto;
+										clip-path: polygon(
+											50% 0%,
+											100% 25%,
+											100% 75%,
+											50% 100%,
+											50% 100%,
+											0 75%,
+											0 25%
+										);
+										image-rendering: optimizequality;
+										background-blend-mode: overlay;
+									"
+									class="card-image zoom"
+								></div>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body">
+								<ul
+									class="nav justify-content-center mb-2 d-none"
+								>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i
+												class="fa-brands fa-instagram"
+											></i>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i
+												class="fa-brands fa-facebook"
+											></i>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i class="fa-brands fa-twitter"></i>
+										</a>
+									</li>
+								</ul>
+
+								<!-- Title -->
+								<h5 class="card-title text-center">
+									<a href="curso-detalle.html" class=""
+										>Katherine Jara</a
+									>
+								</h5>
+
+								<p class="text-center">Profesora de Química</p>
+
+								<p class="text-center">
+									Profesora de química y licenciada en
+									educación (UDEC) y magister en ciencias
+									experimentales (PUCV) Luego de romperla en
+									Youtube, la profesora kathy te ayudará a
+									romperla en química!.
+								</p>
+							</div>
+							<!-- Card body END -->
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-4 col-xl-3">
+						<div class="card shadow border-0 rounded-5 h-100">
+							<div class="position-relative pt-3">
+								<!-- Image -->
+								<div
+									style="
+										background: url(./assets/img/David.png)
+											no-repeat center center;
+										background-size: cover;
+										height: 120px;
+										/* clip-path: polygon(50% 0%, 100% 49%, 50% 100%, 48% 100%, 0 48%); */
+										object-fit: cover;
+										width: 110px;
+										background-color: #607d8b;
+										margin: 0 auto;
+										clip-path: polygon(
+											50% 0%,
+											100% 25%,
+											100% 75%,
+											50% 100%,
+											50% 100%,
+											0 75%,
+											0 25%
+										);
+										image-rendering: optimizequality;
+										background-blend-mode: overlay;
+									"
+									class="card-image zoom"
+								></div>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body">
+								<ul
+									class="nav justify-content-center mb-2 d-none"
+								>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i
+												class="fa-brands fa-instagram"
+											></i>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i
+												class="fa-brands fa-facebook"
+											></i>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i class="fa-brands fa-twitter"></i>
+										</a>
+									</li>
+								</ul>
+
+								<!-- Title -->
+								<h5 class="card-title text-center">
+									<a href="curso-detalle.html" class=""
+										>David Candia</a
+									>
+								</h5>
+
+								<p class="text-center">
+									Profesor de Física y Matemáticas
+								</p>
+
+								<p class="text-center">
+									Licenciado en física y astrónomo (UV) y
+									master en economía en OMMA. Cuenta con más
+									de 6 años de enseñanza a nivel
+									preuniversitario y en universitario.
+								</p>
+							</div>
+							<!-- Card body END -->
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-4 col-xl-3">
+						<div class="card shadow border-0 rounded-5 h-100">
+							<div class="position-relative pt-3">
+								<!-- Image -->
+								<div
+									style="
+										background: url(./assets/img/Nadia.JPG)
+											no-repeat center center;
+										background-size: cover;
+										height: 120px;
+										/* clip-path: polygon(50% 0%, 100% 49%, 50% 100%, 48% 100%, 0 48%); */
+										object-fit: cover;
+										width: 110px;
+										background-color: #607d8b;
+										margin: 0 auto;
+										clip-path: polygon(
+											50% 0%,
+											100% 25%,
+											100% 75%,
+											50% 100%,
+											50% 100%,
+											0 75%,
+											0 25%
+										);
+										image-rendering: optimizequality;
+										background-blend-mode: overlay;
+									"
+									class="card-image zoom"
+								></div>
+							</div>
+
+							<!-- Card body START -->
+							<div class="card-body">
+								<ul
+									class="nav justify-content-center mb-2 d-none"
+								>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i
+												class="fa-brands fa-instagram"
+											></i>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i
+												class="fa-brands fa-facebook"
+											></i>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link px-2">
+											<i class="fa-brands fa-twitter"></i>
+										</a>
+									</li>
+								</ul>
+
+								<!-- Title -->
+								<h5 class="card-title text-center">
+									<a href="curso-detalle.html" class=""
+										>Nadia Muñoz</a
+									>
+								</h5>
+
+								<p class="text-center">
+									Profesora de Historia y Ciencias Sociales
+								</p>
+
+								<p class="text-center">
+									Profesora de historia y Ciencias sociales y
+									licenciada en Educación. (UV) Cuenta con
+									experiencia en diversos preuniversitarios
+									solidarios.
+								</p>
+							</div>
+							<!-- Card body END -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="planes">
+			<div class="container">
+				<div class="row mb-4">
+					<div class="col-12">
+						<h2 class="titulo text-center">Planes</h2>
+					</div>
+				</div>
+				<div class="row gx-4">
+					<div class="col-12 col-md-4">
+						<!-- Card -->
+						<div class="card shadow-lg pack orange">
+							<div
+								class="card-header py-3 position-relative bg-warning text-white"
+							>
+								<img
+									src="./assets/img/einstein.png"
+									alt=""
+									class="position-absolute icon-pack"
+								/>
+								<h4 class="my-0 fw-normal text-center">
+									Plan Científico | Personalizado
+								</h4>
+							</div>
+							<div class="card-body">
+								<!-- Price -->
+								<div class="d-flex justify-content-center mt-3">
+									<span class="h2 mb-0 mt-2">$</span>
+									<span
+										class="price display-2 mb-0"
+										data-annual="0"
+										data-monthly="0"
+										>200.000</span
+									>
+								</div>
+
+								<!-- Text -->
+								<p class="text-center text-muted mb-5 mt-3">
+									El curso personalizado tiene como finalidad
+									una mayor cercanía entre alumno y profesor
+									al estar compuesto solo por 20 alumnos. Esta
+									orientado para alumnos que deseen estudiar
+									carreras como ingeniería o medicina.
+								</p>
+
+								<!-- List -->
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div
+										class="badge badge-rounded-circle bg-check-yellow"
+									>
+										<i class="fas fa-check text-white"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small fw-bold m-0">
+										Cursos máximo 20 alumnos
+									</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div
+										class="badge badge-rounded-circle bg-check-yellow"
+									>
+										<i class="fas fa-check text-white"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small fw-bold m-0">
+										Todo lo incluido en la metodología
+										Pásala!
+									</p>
+								</div>
+
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-yellow-small">
+										<i class="fas fa-check"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small m-0">M1</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-yellow-small">
+										<i class="fas fa-check"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small m-0">M2</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-yellow-small">
+										<i class="fas fa-check"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small m-0">BIO COMÚN</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-yellow-small">
+										<i class="fas fa-check"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small m-0">QCA COMÚN</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-yellow-small">
+										<i class="fas fa-check"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small m-0">FIS COMÚN</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-yellow-small">
+										<i class="fas fa-check"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small m-0">3 ELECTIVO CIENCIAS</p>
+								</div>
+
+								<!-- Button -->
+								<a
+									href="#!"
+									class="btn w-100 btn-outline-dark price mt-3 rounded-5"
+								>
+									<i class="fas fa-shopping-cart me-2"></i
+									>Añadir al carro</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<!-- Card -->
+						<div class="card shadow-lg pack orange">
+							<div
+								class="card-header py-3 position-relative bg-warning text-white"
+							>
+								<img
+									src="./assets/img/einstein.png"
+									alt=""
+									class="position-absolute icon-pack"
+								/>
+								<h4 class="my-0 fw-normal text-center">
+									Plan Científico | Stream
+								</h4>
+							</div>
+							<div class="card-body">
+								<!-- Price -->
+								<div class="d-flex justify-content-center mt-3">
+									<span class="h2 mb-0 mt-2">$</span>
+									<span
+										class="price display-2 mb-0"
+										data-annual="0"
+										data-monthly="0"
+										>150.000</span
+									>
+								</div>
+
+								<!-- Text -->
+								<p class="text-center text-muted mb-5 mt-3">
+									Está orientado para alumnos que deseen
+									estudiar carreras como ingeniería o
+									medicina.
+								</p>
+
+								<!-- List -->
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div
+										class="badge badge-rounded-circle bg-check-yellow"
+									>
+										<i class="fas fa-check text-white"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small fw-bold m-0">
+										Cursos máximo 100 alumnos
+									</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div
+										class="badge badge-rounded-circle bg-check-yellow"
+									>
+										<i class="fas fa-check text-white"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small fw-bold m-0">
+										Todo lo incluido en la metodología
+										Pásala!
+									</p>
+								</div>
+
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-yellow-small">
+										<i class="fas fa-check"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small m-0">M1</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-yellow-small">
+										<i class="fas fa-check"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small m-0">M2</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-yellow-small">
+										<i class="fas fa-check"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small m-0">BIO COMÚN</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-yellow-small">
+										<i class="fas fa-check"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small m-0">QCA COMÚN</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-yellow-small">
+										<i class="fas fa-check"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small m-0">FIS COMÚN</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-yellow-small">
+										<i class="fas fa-check"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small m-0">3 ELECTIVO CIENCIAS</p>
+								</div>
+
+								<!-- Button -->
+								<a
+									href="#!"
+									class="btn w-100 btn-outline-dark price mt-3 rounded-5"
+								>
+									<i class="fas fa-shopping-cart me-2"></i
+									>Añadir al carro</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<!-- Card -->
+						<div class="card shadow-lg pack green">
+							<div
+								class="card-header py-3 position-relative bg-success text-white"
+							>
+								<img
+									src="./assets/img/books.png"
+									alt=""
+									class="position-absolute icon-pack"
+								/>
+								<h4 class="my-0 fw-normal text-center">
+									Matemática + historia personalizado
+								</h4>
+							</div>
+							<div class="card-body">
+								<!-- Price -->
+								<div class="d-flex justify-content-center mt-3">
+									<span class="h2 mb-0 mt-2">$</span>
+									<span
+										class="price display-2 mb-0"
+										data-annual="0"
+										data-monthly="0"
+										>100.000</span
+									>
+								</div>
+
+								<!-- Text -->
+								<p class="text-center text-muted mb-5 mt-3">
+									El curso personalizado tiene como finalidad
+									una mayor cercanía entre alumno y profesor
+									al estar compuesto solo por 20 alumnos. Esta
+									orientado para alumnos que deseen estudiar
+									carreras de humanidades.
+								</p>
+
+								<!-- List -->
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div
+										class="badge badge-rounded-circle bg-check-green"
+									>
+										<i class="fas fa-check text-white"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small fw-bold m-0">
+										Cursos máximo 20 alumnos
+									</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div
+										class="badge badge-rounded-circle bg-check-green"
+									>
+										<i class="fas fa-check text-white"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small fw-bold m-0">
+										Todo lo incluido en la metodología
+										Pásala!
+									</p>
+								</div>
+
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-green-small">
+										<i class="fas fa-check"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small m-0">M1</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-green-small">
+										<i class="fas fa-check"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small m-0">HyCS</p>
+								</div>
+
+								<!-- Button -->
+								<a
+									href="#!"
+									class="btn w-100 btn-outline-dark price mt-3 rounded-5"
+								>
+									<i class="fas fa-shopping-cart me-2"></i
+									>Añadir al carro</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<!-- Card -->
+						<div class="card shadow-lg pack green">
+							<div
+								class="card-header py-3 position-relative bg-success text-white"
+							>
+								<img
+									src="./assets/img/books.png"
+									alt=""
+									class="position-absolute icon-pack"
+								/>
+								<h4 class="my-0 fw-normal text-center">
+									Matemática + historia | Stream
+								</h4>
+							</div>
+							<div class="card-body">
+								<!-- Price -->
+								<div class="d-flex justify-content-center mt-3">
+									<span class="h2 mb-0 mt-2">$</span>
+									<span
+										class="price display-2 mb-0"
+										data-annual="0"
+										data-monthly="0"
+										>70.000</span
+									>
+								</div>
+
+								<!-- Text -->
+								<p class="text-center text-muted mb-5 mt-3">
+									Esta orientado para alumnos que deseen
+									estudiar carreras de humanidades.
+								</p>
+
+								<!-- List -->
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div
+										class="badge badge-rounded-circle bg-check-green"
+									>
+										<i class="fas fa-check text-white"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small fw-bold m-0">
+										Cursos máximo 100 alumnos
+									</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div
+										class="badge badge-rounded-circle bg-check-green"
+									>
+										<i class="fas fa-check text-white"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small fw-bold m-0">
+										Todo lo incluido en la metodología
+										Pásala!
+									</p>
+								</div>
+
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div
+										class="badge bg-check-green-small"
+									></div>
+
+									<!-- Text -->
+									<p class="small m-0">M1</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div
+										class="badge bg-check-green-small"
+									></div>
+
+									<!-- Text -->
+									<p class="small m-0">HyCS</p>
+								</div>
+
+								<!-- Button -->
+								<a
+									href="#!"
+									class="btn w-100 btn-outline-dark price mt-3 rounded-5"
+								>
+									<i class="fas fa-shopping-cart me-2"></i
+									>Añadir al carro</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 d-none">
+						<!-- Card -->
+						<div class="card shadow-lg pack red">
+							<div
+								class="card-header py-3 position-relative bg-danger text-white"
+							>
+								<img
+									src="./assets/img/humanista.png"
+									alt=""
+									class="position-absolute icon-pack"
+								/>
+								<h4 class="my-0 fw-normal text-center">
+									Pack Humanista personalizado
+								</h4>
+							</div>
+							<div class="card-body">
+								<!-- Price -->
+								<div class="d-flex justify-content-center mt-3">
+									<span class="h2 mb-0 mt-2">$</span>
+									<span
+										class="price display-2 mb-0"
+										data-annual="0"
+										data-monthly="0"
+										>60.000</span
+									>
+								</div>
+
+								<!-- Text -->
+								<p class="text-center text-muted mb-5 mt-3">
+									Esta orientado para alumnos que deseen
+									estudiar carreras de humanidades.
+								</p>
+
+								<!-- List -->
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div
+										class="badge badge-rounded-circle bg-check-red"
+									>
+										<i class="fas fa-check text-white"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small fw-bold m-0">
+										Cursos máximo 20 alumnos
+									</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div
+										class="badge badge-rounded-circle bg-check-red"
+									>
+										<i class="fas fa-check text-white"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small fw-bold m-0">
+										Todo lo incluido en la metodología
+										Pásala!
+									</p>
+								</div>
+
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-red-small"></div>
+
+									<!-- Text -->
+									<p class="small m-0">M1</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-red-small"></div>
+
+									<!-- Text -->
+									<p class="small m-0">HyCS</p>
+								</div>
+
+								<!-- Button -->
+								<a
+									href="#!"
+									class="btn w-100 btn-outline-dark price mt-3 rounded-5"
+								>
+									<i class="fas fa-shopping-cart me-2"></i
+									>Añadir al carro</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 d-none">
+						<!-- Card -->
+						<div class="card shadow-lg pack red">
+							<div
+								class="card-header py-3 position-relative bg-danger text-white"
+							>
+								<img
+									src="./assets/img/humanista.png"
+									alt=""
+									class="position-absolute icon-pack"
+								/>
+								<h4 class="my-0 fw-normal text-center">
+									Pack Humanista | Stream
+								</h4>
+							</div>
+							<div class="card-body">
+								<!-- Price -->
+								<div class="d-flex justify-content-center mt-3">
+									<span class="h2 mb-0 mt-2">$</span>
+									<span
+										class="price display-2 mb-0"
+										data-annual="0"
+										data-monthly="0"
+										>40.000</span
+									>
+								</div>
+
+								<!-- Text -->
+								<p class="text-center text-muted mb-5 mt-3">
+									Esta orientado para alumnos que deseen
+									estudiar carreras de humanidades.
+								</p>
+
+								<!-- List -->
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div
+										class="badge badge-rounded-circle bg-check-red"
+									>
+										<i class="fas fa-check text-white"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small fw-bold m-0">
+										Cursos máximo 100 alumnos
+									</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div
+										class="badge badge-rounded-circle bg-check-red"
+									>
+										<i class="fas fa-check text-white"></i>
+									</div>
+
+									<!-- Text -->
+									<p class="small fw-bold m-0">
+										Todo lo incluido en la metodología
+										Pásala!
+									</p>
+								</div>
+
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-red-small"></div>
+
+									<!-- Text -->
+									<p class="small m-0">M1</p>
+								</div>
+								<div class="d-flex align-items-center mb-2">
+									<!-- Badge -->
+									<div class="badge bg-check-red-small"></div>
+
+									<!-- Text -->
+									<p class="small m-0">HyCS</p>
+								</div>
+
+								<!-- Button -->
+								<a
+									href="#!"
+									class="btn w-100 btn-outline-dark price mt-3 rounded-5"
+								>
+									<i class="fas fa-shopping-cart me-2"></i
+									>Añadir al carro</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- / .row -->
+			</div>
+		</section>
+		<section id="cursos">
+			<div class="container">
+				<div class="row mb-4">
+					<div class="col-12">
+						<h2 class="titulo text-center">Nuestros Cursos</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-4 mb-4">
+						<div class="card matematicas border-0">
+							<div class="card-header text-white p-4">
+								<h5 class="card-header-title text-center">
+									Matemáticas M1 / M2 | PAES 2023
+								</h5>
+								<p class="m-0 text-center d-none">
+									Acceso hasta el 01 diciembre del 2023
+								</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title d-none">
+									Matemáticas M1 / M2
+								</h5>
+								<p class="card-text text-left d-none">
+									Lorem ipsum dolor, sit amet consectetur
+									adipisicing elit. Iure consequatur quibusdam
+									animi, porro ex praesentium in, hic vitae
+									veniam magni asperiores iusto non
+									consequuntur unde. Cum mollitia porro
+									exercitationem sunt!
+								</p>
+								<a
+									href="matematicas.html"
+									class="btn btn-primary btn-md w-100 rounded-5 mt-4 inscribir"
+									>INSCRIBETE AQUÍ</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 mb-4">
+						<div class="card fisica border-0">
+							<div class="card-header text-white p-4">
+								<h5 class="card-header-title text-center">
+									Física | PAES 2023
+								</h5>
+								<p class="m-0 text-center d-none">
+									Acceso hasta el 01 diciembre del 2023
+								</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title d-none">Física</h5>
+								<p class="card-text text-left d-none">
+									Lorem ipsum dolor, sit amet consectetur
+									adipisicing elit. Iure consequatur quibusdam
+									animi, porro ex praesentium in, hic vitae
+									veniam magni asperiores iusto non
+									consequuntur unde. Cum mollitia porro
+									exercitationem sunt!
+								</p>
+								<a
+									href="fisica.html"
+									class="btn btn-primary btn-md w-100 rounded-5 mt-4 inscribir"
+									>INSCRIBETE AQUÍ</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 mb-4">
+						<div class="card biologia border-0">
+							<div class="card-header text-white p-4">
+								<h5 class="card-header-title text-center">
+									Biología | PAES 2023
+								</h5>
+								<p class="m-0 text-center d-none">
+									Acceso hasta el 01 diciembre del 2023
+								</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title d-none">Biología</h5>
+								<p class="card-text text-left d-none">
+									Lorem ipsum dolor, sit amet consectetur
+									adipisicing elit. Iure consequatur quibusdam
+									animi, porro ex praesentium in, hic vitae
+									veniam magni asperiores iusto non
+									consequuntur unde. Cum mollitia porro
+									exercitationem sunt!
+								</p>
+								<a
+									href="biologia.html"
+									class="btn btn-primary btn-md w-100 rounded-5 mt-4 inscribir"
+									>INSCRIBETE AQUÍ</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 mb-4">
+						<div class="card quimica border-0">
+							<div class="card-header text-white p-4">
+								<h5 class="card-header-title text-center">
+									Química | PAES 2023
+								</h5>
+								<p class="m-0 text-center d-none">
+									Acceso hasta el 01 diciembre del 2023
+								</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title d-none">Química</h5>
+								<p class="card-text text-left d-none">
+									Lorem ipsum dolor, sit amet consectetur
+									adipisicing elit. Iure consequatur quibusdam
+									animi, porro ex praesentium in, hic vitae
+									veniam magni asperiores iusto non
+									consequuntur unde. Cum mollitia porro
+									exercitationem sunt!
+								</p>
+								<a
+									href="quimica.html"
+									class="btn btn-primary btn-md w-100 rounded-5 mt-4 inscribir"
+									>INSCRIBETE AQUÍ</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 mb-4">
+						<div class="card historia_cs border-0">
+							<div class="card-header text-white p-4">
+								<h5 class="card-header-title text-center">
+									Historia y Ciencias Sociales | PAES 2023
+								</h5>
+								<p class="m-0 text-center d-none">
+									Acceso hasta el 01 diciembre del 2023
+								</p>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title d-none">
+									Historia y Ciencias Sociales
+								</h5>
+								<p class="card-text text-left d-none">
+									Lorem ipsum dolor, sit amet consectetur
+									adipisicing elit. Iure consequatur quibusdam
+									animi, porro ex praesentium in, hic vitae
+									veniam magni asperiores iusto non
+									consequuntur unde. Cum mollitia porro
+									exercitationem sunt!
+								</p>
+								<a
+									href="historia.html"
+									class="btn btn-primary btn-md w-100 rounded-5 mt-4 inscribir"
+									>INSCRIBETE AQUÍ</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="recomendacion">
+			<div class="container">
+				<div class="row mb-4">
+					<div class="col-12">
+						<h2 class="titulo text-center">
+							Recomendación de nuestros profesores
+						</h2>
+						<h3
+							class="subtitulo text-center justify-content-center d-flex align-items-center"
+						>
+							Ellos lo recomiendan
+							<img
+								alt="😎"
+								class="ms-2"
+								src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAADM5JREFUeNrsnF1sHFcVx8+d2U/vbrKxnThpS+uPFlqldlyE2lJAOCXtW9sE3lqpckB89AGaSK14oFLSNySQ3Iry8YCUpEj0kRTeAgUX0QJ9oE5CpEJjx2lJmjghXuL1fnrmcs6dO7N37s5+eD3rBOorjedzZ+785pz/PXfuGQNslI2yUbpY2M1Qifwv7xzE2aBXGw6QfvLs9McKUP4XI1kw2AQzYBwY2wWGAELLTi30mnA52TyHf2fAhnnO+UmcT6efOjvzfwEo/+rIOELZizCeYCYbBxMvhxMzcaeBy4acS0CeAXEFEK3YOLc4cBuXLbGc4xafxu2vI8Dj6adnc/8zgBBKFs+6Fy3jWRZBKBG8BE5MzgUgFUyzWnBljnAQigNoRS5XcVqxcRmO4v5jCGr6pgUkwAAcQKtAMEYWYggiatTgmNJiFHdiTKsG08DIBc7r3I6gICDbgUWgKrTNJqt6MUxQLCQ4B/BMhxAEgjGA4QRRAiTBuC7EFCqsjVrwAE3CP54Luq5HgBAWJ0gVm7ZN4/79CGr+hgISGgMwhRAmGFkMgRGA/BbDVCi6W7EWfHiAu8mJEyl3fcWBQ5CgjHOyLseaDt8QQAhnUsCJsiyLO1ZDc7IcAuNZCwtwKw8Oa1wTn/XwevFWYAnxlhYlwJQRFkGqCBekFm9fp9bEOoRzBH85KTQm4YBh8Zo7MUMDE+RenbpYECwXjtriEaCSLeYo5tTK7UZIM10FJIWY4OwVFpOQgMi1TAWCoUKptyQG0LoF0yBxHuRmmh652wQkcCARoJJwuRzuP4iQjnYFkITzBwruBJykAseQOuO2Ug1cjPncjTW3ojrr4d5ynfW4UNRWjiuQShISuRwI8W4bkrEKmFMN4XhBH4gYx1lnyjrUYh93MuV2U07aseo2cW6z9lvfdnleb53JdSavEVcsPSqewpRsXMKzIDzhFMU4AkjSAeSDw2pwAl1Mj5aDWjNfKK36libIepTtbrM167EVAXctqWjhJISbNOm+doQ70gacvSIApGAvLgVZtxzmh8OY+zSZsk8Hw+r1yOdizM9KwmCum9nyGNzOuMoUrYdcDhxIZEnc5E4Lazsizm07a1eKvyJIa3IxT5TJZGVLJS5k+Fuqmvuopi/XTb8riHOZipv49iuTCX4XNZniZprbMnk+5cGoLujqI4vXWlwjEhu/+nLk8Fo1iFwrS77rxTnuBVW3MhRL0WG5mqBrh6nqh4TmTnKbF2xqsEDZF3hNFxIDnzaKbo8bs8UiEElsOnRlCgY7AoTWM4GzSde1IK52NOtbKl/F1KdpME1QNShBVmSCIuLMJ/p1oHRI2oOqCzWi8n4w2o+kevFY80hbIv3wzgwBmZCru3ZsMcf7M+bgMorb3OWVjqLtsZ1Jn8aMjSbESjptwMhIzDtu+7YoDAz45fAyXvPSQtUT6Nm5CuTzjvKeOl1SAmxcP1PqqH5DeM0eswpnLjLq3JJwn5S7jv/+zNKMDohvvGD1yjQC2r3aOOhjWSKrOTgZN2FbNg7RiAHXrlfg2lLlhlY+0xOBgS0JsXzhahGKZevGAbr79gzcMdDjrY/ckoI/nrralUq1rDQK9313ZaE3U9OxW/oSoj5hF9XFptuFo1b0RpT77+71waFCVh1ScQYJdEBSlLZs22zWuVUQnPOXC7BUWAn1xqkl01szvdzanxSupZYVi8N7HyyFUQXqegwhi4OBLvbr724bfO2tZXjtT8veNtIctRCUd967JioVZnn+4DZ4dE9GLJ/43RL8YGoh8Di9PqQ9fz93PZQ6jN26MvPSiWKuWaBY18vVTffds7nQ4Tz9VK8Hhwot07ZA/Ykwn+WEBUfERf32RKtIerDVSbohyo9+KdPWNr1cL1RDrUfMhCx2PbLNAH1R/xE1525ZWCyHDmdkOB6oO7SN9ullcakauBxiGW/azA9vj/oBYaxDzWcS8Yb9xBxAsaaiPTvnfyhnL+Th8mIJoqYRehx2R5/VsrM6mEqyQLeiyoStPaIfNhBtuO/OAAtyG4puBKmpmLi/iaaAhndE1zWmeejBno72daMMbY+2ft2RShiwXpAa6UwrfepGoXtOJ1gb74PwmNEmlQ61eX+yN5RjwiijQzGwysU2AKEbPv6FdNcrRNahxj4NQwA8ZmQdHtjjn0+37IvVTL/XhD0PpLpWmXTKwMh56yqi7K3iN90qe+5PwcAWsy1AM+4o5Te+sgUG+iJdgfPD79+yKqugY+k33YBE9/j1L2fBKhXbApRzhlc4ijWDF77VD6keI1S3Wi2cMH7bsFnHe3vhm/0ozgZwywp8q1EHSIw3yUG34dti8MoLO2DsU4k1Ww31rX72o9vWdIP0WzoHnWut1kT39Mr3doh7pKQHuxzcS/C1a/lXRw6DwQ4xJMvSpjNEIoeJT79fguPYy/7z3wptQxkbS8LnHky1JcadFOr1v/WXZTh1qgj5Zbut33z20z2wF/t5o3clvEw1GrsvnTuPblaArQf9TCL1GuSmkEBtuJIzGP1kAsbuSQqbO/2PEsx9WIF8kfsTEnDahVDSGWNdWh4C78KnLsmlSyswO1vWkqzwYWHvYPgTMRglT7BkooOtDGPjNrtSct8HQQtAzg/EJC/gIeUOrLF7ENbOhDLmxZQRVLltncvIUByGb4/BQ5/pkcPL7jAz+KC4oYw35o/HWcsFGo6u0586QDSYj242zy0+yFxI9FpVy+wS0PT0E87kNgciUaWXXuQGFA2Tq+0aTa4pOqaxMrKUk6eLwrVonSzo+QPblPyggPQY0Pap63iPVt57G/lmUw2SOnQELWGS9aAGpUyROuIbxfQN+fqXPSuSWWaPPDbbUJ9cUG5ndQQj2VTaMb3lvA2z55zOaD5viUFDAtNIZ377mxHPYuqsx122nGWuHkP6U7Cg8P4/XQsaQg2ab/q6A8vreIJJSooUky0NgvvdzLEiaS1eEhNziBvKkwoodKNkBXA6HPdSkznrk6uCt7lSYi0tuXBmdDiBkTS62XHR3Lv5xyu8xcWUNDhfShyHfY9v7rr27Htss2I50mK8etasSq+nOAbvrbq46J7qWNtdDSxHhf4ISLY/QVJPXFLB2YoZ4/ozX+1r69Vpx63Ywxl45mt9SovEa7lDekul11VYzzJYxYITINM9rwLQy+JkFVum+3N/Nqnq28qymiPorj/37a3OU+6C5Tz3na01CG59Wlm2CxHvq3rVG2g8ju6Vaxko1ok1pfomSKwp7c6UKSmNRBr8iUterqCzThkYP/35VU98O2/OY2g1/TB2byIYju0XYy/BUxVngrOwCOVLH3nvyoL0pxWgQZy9CxGWFS1aj0w8MjUwrAUkd10Gkm+/swwn3sjD239dXhWYXfcm4ZGH08KtagnkNZ1R4fjdTGu5aF6oYss1i+ui//Uiwjnc6LpNx46v/SRzOJrqP2QkI8KCCJLI0tKSmeoSl1QoaraXMuULtoBEFjWHzThtEy0bwcB4SfQFh2MwMojB3wMpp++lNxQqDN4Ajm5VFQ7FuXmwCp72DDVyr5aABKQfp96Nbd4xztzsVtXVGqXhsYB1NRtNzXBtJ5FcTybnyqcHmu7VMlwDXAu1tPyvS1C9ds2TMoRzvNnlW3YKrMry/urSQs7JWndS/L0LqqbuE+2gdXeb7CB63QB1vzYpx3E3slcCP66esxkc6YbVqzkVzkut4LRlQVSuTMGkGc8cifduD86TDkgFvtnypKtXUJQvXPT6nAjnvnbuva1uJZ7sqFVeerG8eEmk9Htp/Yrw1TX5qvW4T1+1iDqL4bXjbOWNgmItXLdEWxdjVXMaw8Fpd7uNw6oSfNCSjpjx1GSsbzuQcK/rtxrAm0fzDb7VqFxcgMrCFR+cZqK8JkAS0mEjEj8U6x0AM51c3699oEk3R/vah1ctKM19IF5ldAqnI0CuJuFsKrqpLxvt61/f78WAB1uRIsYri9eh/OFF/T3zvtXC6RiQhERZEEdYJDoe798O5qaU963qun9x6AaL5SqUzl8AK+8LQpsGgl0DJCFRLs0hnA6YiR4gazIzKd83q4GWo1nPWr9ZJTCVjxawCc/5344C7Ec4a/onBKFkYUprou86JtCiINrbC9Etm9HtIl396nklt4R9qn/rFpOTVvNSGPcWapoqgpqQFkVzFPEMTj0QyW4CIxELdjcIANbgu3m+YoG1VADrP9cFHEVjXDAvywAwtP/E0JU8XvkFzbMAQsxFShszTTBTPRgeJMCIx9C6omDEcB6L1tWCbtwulgQfK1/AmKuCfaeSs62+kAAfo1itG/fS9URnaVVPSKsaD+GUOQnlTfkeZ76b9V/XTHAp6uMS1mYF2LhraZrI5qD2Fc687CLMwEbZKBtlo2yUjULlvwIMAFnq8iCbEm7AAAAAAElFTkSuQmCC"
+							/>
+						</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<div class="card border-2 rounded-5 recomendacion">
+							<div class="card-body">
+								<div class="d-flex">
+									<ul
+										class="list-group list-group-horizontal ms-auto mb-4"
+									>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+									</ul>
+								</div>
+								<p>
+									"Es una persona que tiene el dominio de los
+									contenidos, sabe explicar la materia con
+									distintos métodos lo que hace más fácil
+									aprender, da la confianza para hacerle
+									preguntas cuantas veces sea necesario,sus
+									clases son full personalizadas y nada que
+									decir 10/10 como profesor."
+								</p>
+								<p class="fw-bold">Profesor David</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="card border-2 rounded-5 recomendacion">
+							<div class="card-body">
+								<div class="d-flex">
+									<ul
+										class="list-group list-group-horizontal ms-auto mb-4"
+									>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+									</ul>
+								</div>
+								<p>
+									"…Me fue super bien en la PAES y me alcanza
+									para estudiar medicina en la UC. Quiero
+									agradecerle por todos los conocimientos que
+									me entregó y por enseñarme a analizar mejor
+									lo que estudio, eso me permitió realizar una
+									buena prueba. Ha sido la mejor profesora de
+									biología que he tenido..."
+								</p>
+								<p class="fw-bold">Profesora Carol</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="card border-2 rounded-5 recomendacion">
+							<div class="card-body">
+								<div class="d-flex">
+									<ul
+										class="list-group list-group-horizontal ms-auto mb-4"
+									>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+									</ul>
+								</div>
+								<p>
+									"...gracias a usted pude responder muchas
+									cosas químicas en la PAES y puede entrar a
+									la carrera de mi interés .Estoy súper
+									agradecida de haberla tenido como profesora
+									ya que gracias a usted obtuve un gusto por
+									la química y siento que tengo una muy buena
+									base para los ramos en la universidad"
+								</p>
+								<p class="fw-bold">Profesora Katherin</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="card border-2 rounded-5 recomendacion">
+							<div class="card-body">
+								<div class="d-flex">
+									<ul
+										class="list-group list-group-horizontal ms-auto mb-4"
+									>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+									</ul>
+								</div>
+								<p>
+									"…La profesora mostró en cada una de sus
+									clases el compromiso con la educación de sus
+									estudiantes, preocupandose siempre de que
+									todos nosotros entendieramos bien cada tema.
+									Esta fEsta fue la principal causa de los
+									buenos resultados obtenidos…"
+								</p>
+								<p class="fw-bold">Profesora Nadia</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="faq">
+			<div class="container">
+				<div class="row mb-4">
+					<div class="col-12">
+						<h2 class="titulo text-center">Preguntas Frecuentes</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="accordion">
+							<!-- Item -->
+							<div
+								class="accordion-item border-0 rounded-3 shadow-sm mb-3"
+							>
+								<h3 class="accordion-header">
+									<button
+										class="accordion-button shadow-none rounded-3 collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#q-1"
+										aria-expanded="true"
+										aria-controls="q-1"
+									>
+										¿Cuándo comienzan las clases en el
+										preuniversitario pásala?
+									</button>
+								</h3>
+								<div
+									class="accordion-collapse collapse"
+									id="q-1"
+									data-bs-parent="#faq"
+								>
+									<div class="accordion-body fs-sm pt-0">
+										<p class="mt-3 mb-0">
+											El Preuniversitario online comienza
+											el 29 de mayo con las clases en vivo
+											exclusivas del programa.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Item -->
+							<div
+								class="accordion-item border-0 rounded-3 shadow-sm mb-3"
+							>
+								<h3 class="accordion-header">
+									<button
+										class="accordion-button shadow-none rounded-3 collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#q-2"
+										aria-expanded="false"
+										aria-controls="q-2"
+									>
+										¿Qué ramos incluye el Preuniversitario
+										Online?
+									</button>
+								</h3>
+								<div
+									class="accordion-collapse collapse"
+									id="q-2"
+									data-bs-parent="#faq"
+								>
+									<div class="accordion-body fs-sm pt-0">
+										<p class="mt-3 mb-0">
+											Tenemos actualmente las asignaturas
+											de Matemáticas 1, Matemáticas 2,
+											Ciencias eje física, Ciencias eje
+											biología, Ciencias eje química e
+											Historia y Ciencias Sociales.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Item -->
+							<div
+								class="accordion-item border-0 rounded-3 shadow-sm mb-3"
+							>
+								<h3 class="accordion-header">
+									<button
+										class="accordion-button shadow-none rounded-3 collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#q-3"
+										aria-expanded="false"
+										aria-controls="q-3"
+									>
+										¿Las clases del preuniversitario Online
+										quedarán grabadas?
+									</button>
+								</h3>
+								<div
+									class="accordion-collapse collapse"
+									id="q-3"
+									data-bs-parent="#faq"
+								>
+									<div class="accordion-body fs-sm pt-0">
+										<p class="mt-3 mb-0">
+											¡Sí! Grabamos y guardamos todas las
+											clases para que puedas volver a
+											revisar el contenido las veces que
+											quieras y en tu propio horario.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Item -->
+							<div
+								class="accordion-item border-0 rounded-3 shadow-sm mb-3"
+							>
+								<h3 class="accordion-header">
+									<button
+										class="accordion-button shadow-none rounded-3 collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#q-4"
+										aria-expanded="false"
+										aria-controls="q-4"
+									>
+										¿Hay ensayos PAES en la plataforma?
+									</button>
+								</h3>
+								<div
+									class="accordion-collapse collapse"
+									id="q-4"
+									data-bs-parent="#faq"
+								>
+									<div class="accordion-body fs-sm pt-0">
+										<p class="mt-3">
+											¡Sí! Realizaremos jornadas de
+											realización y revisión de ensayos
+											PAES. Estos están calendarizados
+											para septiembre y octubre.
+										</p>
+										<p>
+											Estos son ORIGINALES y se crearon
+											desde 0 específicamente para
+											preparar la PAES.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Item -->
+							<div
+								class="accordion-item border-0 rounded-3 shadow-sm mb-3"
+							>
+								<h3 class="accordion-header">
+									<button
+										class="accordion-button shadow-none rounded-3 collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#q-5"
+										aria-expanded="false"
+										aria-controls="q-5"
+									>
+										¿Qué métodos de pago hay?
+									</button>
+								</h3>
+								<div
+									class="accordion-collapse collapse"
+									id="q-5"
+									data-bs-parent="#faq"
+								>
+									<div class="accordion-body fs-sm pt-0">
+										<p class="mt-3 mb-0">
+											Los métodos de pago son los
+											siguientes: - Tarjeta de Crédito -
+											Tarjeta de Débito a través de Webpay
+											- Transferencia Bancaria - Efectivo
+											(Vía Servipag).
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Item -->
+							<div
+								class="accordion-item border-0 rounded-3 shadow-sm mb-3"
+							>
+								<h3 class="accordion-header">
+									<button
+										class="accordion-button shadow-none rounded-3 collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#q-6"
+										aria-expanded="false"
+										aria-controls="q-6"
+									>
+										¿Puedo pagar en cuotas?
+									</button>
+								</h3>
+								<div
+									class="accordion-collapse collapse"
+									id="q-6"
+									data-bs-parent="#faq"
+								>
+									<div class="accordion-body fs-sm pt-0">
+										<p class="mt-3 mb-0">
+											Si, puedes pagar en cuotas.
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- Item -->
+							<div
+								class="accordion-item border-0 rounded-3 shadow-sm mb-3"
+							>
+								<h3 class="accordion-header">
+									<button
+										class="accordion-button shadow-none rounded-3 collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#q-7"
+										aria-expanded="false"
+										aria-controls="q-7"
+									>
+										¿Hay garantía?
+									</button>
+								</h3>
+								<div
+									class="accordion-collapse collapse"
+									id="q-7"
+									data-bs-parent="#faq"
+								>
+									<div class="accordion-body fs-sm pt-0">
+										<p class="mt-3 mb-0">
+											Tenemos una garantía de 7 días
+											hábiles donde puedes solicitar la
+											devolución de tu dinero.
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- Item -->
+							<div
+								class="accordion-item border-0 rounded-3 shadow-sm mb-3"
+							>
+								<h3 class="accordion-header">
+									<button
+										class="accordion-button shadow-none rounded-3 collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#q-8"
+										aria-expanded="false"
+										aria-controls="q-8"
+									>
+										Ya me matriculé, ¿ahora que hago?
+									</button>
+								</h3>
+								<div
+									class="accordion-collapse collapse"
+									id="q-8"
+									data-bs-parent="#faq"
+								>
+									<div class="accordion-body fs-sm pt-0">
+										<p class="mt-3 mb-0">
+											Te contactaremos al siguiente día
+											hábil para darte acceso a nuestra
+											sala de clases virtual, lugar donde
+											podrás descargar el material que
+											actualizamos semana a semana,
+											acceder a tus clases en línea, ver
+											las clases grabadas y más
+											información.
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- Item -->
+							<div
+								class="accordion-item border-0 rounded-3 shadow-sm mb-3"
+							>
+								<h3 class="accordion-header">
+									<button
+										class="accordion-button shadow-none rounded-3 collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#q-9"
+										aria-expanded="false"
+										aria-controls="q-9"
+									>
+										¿A que hora son las clases?
+									</button>
+								</h3>
+								<div
+									class="accordion-collapse collapse"
+									id="q-9"
+									data-bs-parent="#faq"
+								>
+									<div class="accordion-body fs-sm pt-0">
+										<p class="mt-3 mb-0">
+											Puedes ver el horario de clases en
+											este link.
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- Item -->
+							<div
+								class="accordion-item border-0 rounded-3 shadow-sm mb-3"
+							>
+								<h3 class="accordion-header">
+									<button
+										class="accordion-button shadow-none rounded-3 collapsed"
+										type="button"
+										data-bs-toggle="collapse"
+										data-bs-target="#q-10"
+										aria-expanded="false"
+										aria-controls="q-10"
+									>
+										¿Ya comenzaron las clases, puedo
+										inscribirme aun en los cursos?
+									</button>
+								</h3>
+								<div
+									class="accordion-collapse collapse"
+									id="q-10"
+									data-bs-parent="#faq"
+								>
+									<div class="accordion-body fs-sm pt-0">
+										<p class="mt-3 mb-0">
+											Claro que puedes, tendrás acceso al
+											material y videos pasados, además de
+											a las que siguen.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contacto">
+			<div class="container">
+				<div class="row mb-4">
+					<div class="col-12 col-md-6">
+						<h2 class="titulo">Contáctanos</h2>
+						<div class="d-flex flex-column mt-4">
+							<form action="#" method="POST">
+								<div class="col mb-3">
+									<input
+										type="text"
+										class="form-control form-control-lg nombre"
+										placeholder="Nombre"
+										required
+									/>
+								</div>
+								<div class="col mb-3">
+									<input
+										type="email"
+										class="form-control form-control-lg email"
+										placeholder="Correo electrónico"
+										required
+									/>
+								</div>
+								<div class="col mb-3">
+									<textarea
+										class="form-control form-control-lg mensaje"
+										placeholder="Mensaje"
+										required
+									></textarea>
+								</div>
+								<div class="col mb-3">
+									<input
+										type="submit"
+										value="Enviar"
+										class="btn btn-lg send"
+									/>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer id="footer">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-12 col-md-6">
+						<div class="d-flex flex-column justify-content-center">
+							<img
+								src="./assets/img/logo_footer.png"
+								alt="Pasala"
+								width="124"
+								class="mx-auto"
+							/>
+							<p class="mt-3 text-white text-center">
+								Pasa la prueba con nosotros!
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="d-flex h-100 align-items-center">
+							<div
+								class="d-flex flex-column align-content-center ms-auto"
+							>
+								<ul class="list-unstyled text-white">
+									<li class="mb-2">
+										Whatsapp +569 61058148
+									</li>
+									<li class="mb-2">
+										Email: info@pasala.cl
+									</li>
+									<li class="mb-2">Dirección: 444, 832000</li>
+									<li class="mb-2">
+										Providencia Región Metropolitana
+									</li>
+								</ul>
+							</div>
+							<div class="d-flex flex-column ms-auto">
+								<p class="text-white sigue">Sigue a PÁSALA</p>
+								<ul
+									class="list-unstyled list-group-horizontal list-group"
+								>
+									<li class="me-4">
+										<a href="https://wa.me/56961058148" class="text-white fs-5"
+											><i
+												class="fa-brands fa-whatsapp"
+											></i
+										></a>
+									</li>
+									<li class="me-4">
+										<a
+											href="https://www.instagram.com/preuniversitario_pasala/"
+											class="text-white fs-5"
+											><i
+												class="fa-brands fa-instagram"
+											></i
+										></a>
+									</li>
+									<li class="me-4">
+										<a
+											href="https://www.tiktok.com/@preupasala"
+											class="text-white fs-5"
+											><i class="fa-brands fa-tiktok"></i
+										></a>
+									</li>
+									<li class="me-4">
+										<a
+											href="https://www.youtube.com/channel/UCJe2B19KmbarRQohkQ9b16w"
+											class="text-white fs-5"
+											><i class="fa-brands fa-youtube"></i
+										></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mb-2">
+					<div class="col-12 px-0">
+						<ul class="nav mb-2 mb-lg-0 menu-footer">
+							<li class="nav-item home">
+								<a
+									class="nav-link text-white ps-0"
+									aria-current="page"
+									href="#"
+								>
+									Home
+								</a>
+							</li>
+							<li class="nav-item metodologia d-none">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="#metodologia"
+								>
+									Metodologías
+								</a>
+							</li>
+							<li class="nav-item pasala">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="#pasala"
+								>
+									¿Por qué elegirnos?
+								</a>
+							</li>
+							<li class="nav-item pae">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="#comopasarlaprueba"
+								>
+									Metodología
+								</a>
+							</li>
+							<li class="nav-item nosotros">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="#sobrenosotros"
+								>
+									Nosotros
+								</a>
+							</li>
+							<li class="nav-item cursos">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="#cursos"
+								>
+									Cursos
+								</a>
+							</li>
+							<li class="nav-item recomendacion">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="#recomendacion"
+								>
+									Recomendación
+								</a>
+							</li>
+							<li class="nav-item faq">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="#faq"
+								>
+									FAQ
+								</a>
+							</li>
+							<li class="nav-item planes">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="#planes"
+								>
+									Planes
+								</a>
+							</li>
+						</ul>
+						<hr class="text-white mb-4" />
+						<a href="#" class="text-white text-decoration-none"
+							>Términos y condiciones</a
+						>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/videojs-youtube@3.0.0/dist/Youtube.min.js"></script>
+		<script>
+			window.onload = function () {
+				// Select all navigation links
+				const navLinks = document.querySelectorAll(".menu a");
+				const navLinksFooter =
+					document.querySelectorAll(".menu-footer a");
+
+				// Add click event listener to each navigation link
+				navLinks.forEach((link) => {
+					link.addEventListener("click", (event) => {
+						// Prevent default behavior of the link
+						event.preventDefault();
+
+						// Get the target element's position
+						const target = document.querySelector(link.hash);
+						const targetPosition = target.offsetTop;
+
+						// Smoothly scroll to the target element
+						window.scrollTo({
+							top: targetPosition,
+							behavior: "smooth",
+						});
+					});
+				});
+
+				// Add click event listener to each navigation link
+				navLinksFooter.forEach((link) => {
+					link.addEventListener("click", (event) => {
+						// Prevent default behavior of the link
+						event.preventDefault();
+
+						// Get the target element's position
+						const target = document.querySelector(link.hash);
+						const targetPosition = target.offsetTop;
+
+						// Smoothly scroll to the target element
+						window.scrollTo({
+							top: targetPosition,
+							behavior: "smooth",
+						});
+					});
+				});
+
+				// subir
+				var btnSubir = document.getElementById("btn-subir");
+
+				goTo = (id) => {
+					const target = document.querySelector(id);
+					const targetPosition = target.offsetTop;
+
+					// Smoothly scroll to the target element
+					window.scrollTo({
+						top: targetPosition,
+						behavior: "smooth",
+					});
+				};
+
+				btnSubir.onclick = function () {
+					window.scrollTo({
+						top: 0,
+						behavior: "smooth",
+					});
+				};
+			};
+		</script>
+	</body>
+</html>

@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Pásala | Química</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<link
+			href="https://vjs.zencdn.net/8.0.4/video-js.css"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="./assets/css/fonts.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
+	<body>
+		<header id="header">
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<a class="navbar-brand logo" href="#"> </a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div
+						class="collapse navbar-collapse"
+						id="navbarSupportedContent"
+					>
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu">
+							<li class="nav-item home">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="index.html"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-warning"
+											style="
+												background: url('./assets/img/home.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										Home
+									</div>
+								</a>
+							</li>
+							<li class="nav-item metodologia d-none">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="index.html#metodologia"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-red-light"
+											style="
+												background: url('./assets/img/list.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										Metodologías
+									</div>
+								</a>
+							</li>
+							<li class="nav-item pasala">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="index.html#pasala"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-green-light"
+											style="
+												background: url('./assets/img/internet.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										Pásala
+									</div>
+								</a>
+							</li>
+							<li class="nav-item pae">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="index.html#comopasarlaprueba"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-blue-lighter"
+											style="
+												background: url('./assets/img/examen.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										PAE
+									</div>
+								</a>
+							</li>
+							<li class="nav-item nosotros">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="index.html#sobrenosotros"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-orange-light"
+											style="
+												background: url('./assets/img/contact-us.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										Nosotros
+									</div>
+								</a>
+							</li>
+							<li class="nav-item cursos">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="index.html#cursos"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-pink"
+											style="
+												background: url('./assets/img/folder.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										Cursos
+									</div>
+								</a>
+							</li>
+							<li class="nav-item recomendacion">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="index.html#recomendacion"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-blue"
+											style="
+												background: url('./assets/img/feedback.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										Recomendación
+									</div>
+								</a>
+							</li>
+							<li class="nav-item faq">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="index.html#faq"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-blue-light"
+											style="
+												background: url('./assets/img/help.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										FAQ
+									</div>
+								</a>
+							</li>
+							<li class="nav-item planes">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="index.html#planes"
+								>
+									<div
+										class="d-flex flex-column justify-content-center align-items-center"
+									>
+										<div
+											class="icon bg-purple-light"
+											style="
+												background: url('./assets/img/calendar.png');
+												background-repeat: no-repeat;
+												background-size: 20px;
+												background-position: center
+													center;
+											"
+										></div>
+										Planes
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div
+			class="p-4 p-md-5 mb-4"
+			id="curso"
+			style="
+				background: url('./assets/img/bg-cursos.jpg') repeat center
+					center;
+				background-size: cover;
+				position: relative;
+			"
+		>
+			<div class="col-md-6 px-0 zindex-2">
+				<h1 class="display-4 mt-3">Química</h1>
+			</div>
+		</div>
+		<article class="bg-gray py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-7">
+						<div class="col-12">
+							<h2 class="blog-post-title mb-1 border-bottom">
+								Descripción del curso
+							</h2>
+
+							<p class="lead mt-4 mb-0">
+								El curso preuniversitario de Química tiene el
+								fin de preparar a los alumnos para la prueba
+								PAES de Química, tanto el módulo común como
+								electivo.
+							</p>
+							<p class="lead mt-0 mb-4">
+								Para esto revisaremos en detalle todos los
+								contenidos (Actualizados) oficialmente
+								publicados por el DEMRE con total enfoque a que
+								logres responder correctamente el instrumento.
+							</p>
+							<h2 class="blog-post-title mb-1">Demo</h2>
+							<div class="card mb-5">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-12 col-md-6">
+											<video
+												id="vid1"
+												class="video-js vjs-default-skin"
+												controls
+												style="
+													width: 100%;
+													height: 100%;
+												"
+												data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=WDUXh2U0Iro"}] }'
+											></video>
+										</div>
+										<div class="col-12 col-md-6">
+											<div class="ratio ratio-16x9">
+												<iframe
+													src="./assets/demo/quimica/teoria muestra quimica.pdf"
+													title="PDF"
+													allowfullscreen
+												></iframe>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<h2 class="blog-post-title mb-1">
+								Programa y metodología
+							</h2>
+							<div class="card mb-5">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-12 col-md-6 mx-auto">
+											<div class="ratio ratio-16x9">
+												<iframe
+													src="./assets/demo/quimica/programa quimica.pdf"
+													title="PDF"
+													allowfullscreen
+												></iframe>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<h2 class="blog-post-title mb-1">
+								Conoce el profesor
+							</h2>
+							<section class="py-lg-4 mt-0 mb-5">
+								<div
+									class="row g-0 bg-dark bg-repeat-0 bg-position-center border rounded-3 overflow-hidden"
+								>
+									<div
+										class="col-md-5 bg-repeat-0 bg-position-top-center bg-size-cover"
+										style="min-height: 350px"
+									>
+										<video
+											id="my-video"
+											class="video-js vjs-fluid"
+											controls
+											preload="auto"
+											width="640"
+											height="350"
+											poster="./assets/img/Katherin.jpg"
+											data-setup="{}"
+										>
+											<source
+												src="./assets/presentacion/quimica.mp4"
+												type="video/mp4"
+											/>
+											<p class="vjs-no-js">
+												To view this video please enable
+												JavaScript, and consider
+												upgrading to a web browser that
+												<a
+													href="https://videojs.com/html5-video-support/"
+													target="_blank"
+													>supports HTML5 video</a
+												>
+											</p>
+										</video>
+									</div>
+									<div class="col-md-7 py-xl-5 px-4">
+										<div
+											class="py-5 mx-auto"
+											style="max-width: 530px"
+										>
+											<h2 class="h1 text-light mb-4">
+												Katherin Jara
+											</h2>
+											<ul
+												class="list-group"
+												data-bs-theme="dark"
+											>
+												<li
+													class="text-white list-group-item d-flex justify-content-between align-items-start"
+												>
+													<div class="ms-2 me-auto">
+														<div class="fw-bold">
+															Formación
+															profesional
+														</div>
+														Profesora de Química y
+														Ciencias Naturales y
+														Licenciada en Educación
+														(UDEC).
+														<br />
+														Magister en ciencias
+														experimentales (PUCV).
+													</div>
+												</li>
+												<li
+													class="text-white list-group-item d-flex justify-content-between align-items-start"
+												>
+													<div class="ms-2 me-auto">
+														<div class="fw-bold">
+															Experiencia
+														</div>
+														Profesora de Química.<br />
+														Docente Universitaria de
+														Química.<br />
+														Jefe de Unidad Técnica
+														de Pedagogía.
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<aside class="col-lg-4 col-md-5 order-md-2 mb-5">
+						<div style="margin-top: -96px"></div>
+						<div class="position-sticky top-0 pt-5">
+							<div class="pt-5 mt-md-3">
+								<div class="card shadow-sm p-sm-3">
+									<div class="card-body">
+										<h4 class="mb-4">Comprar el curso:</h4>
+										<a
+											href="#"
+											class="btn btn-warning btn-lg shadow-primary mb-4"
+											>Comprar Común ($60.000)</a
+										>
+										<a
+											href="#"
+											class="btn btn-warning btn-lg shadow-primary mb-4"
+											>Comprar Común + Electivo
+											($90.000)</a
+										>
+										<h4 class="mb-4">
+											También disponibles en planes y
+											packs:
+										</h4>
+										<a
+											href="index.html#planes"
+											class="btn btn-outline-primary btn-lg shadow-primary bg-white text-dark border-dark"
+											>Ver planes</a
+										>
+									</div>
+								</div>
+							</div>
+						</div>
+					</aside>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row align-items-stretch">
+					<div class="col-12">
+						<h2 class="blog-post-title mb-5 border-bottom">
+							Testimonios
+						</h2>
+					</div>
+				</div>
+				<!-- / .row -->
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<div class="card border-2 rounded-5 recomendacion">
+							<div class="card-body">
+								<div class="d-flex">
+									<ul
+										class="list-group list-group-horizontal ms-auto mb-4"
+									>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+									</ul>
+								</div>
+								<p>
+									...gracias a usted pude responder muchas
+									cosas químicas en la PAES y puede entrar a
+									la carrera de mi interés .Estoy súper
+									agradecida de haberla tenido como profesora
+									ya que gracias a usted obtuve un gusto por
+									la química y siento que tengo una muy buena
+									base para los ramos en la universidad
+								</p>
+								<p class="fw-bold">Valentina</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="card border-2 rounded-5 recomendacion">
+							<div class="card-body">
+								<div class="d-flex">
+									<ul
+										class="list-group list-group-horizontal ms-auto mb-4"
+									>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+										<li
+											class="list-group-item border-0 px-1"
+										>
+											<i
+												class="fas fa-star text-warning"
+											></i>
+										</li>
+									</ul>
+								</div>
+								<p>
+									..Le quería agradecer por haberme entregado
+									ese amor por la química, gracias a eso me
+									fue bien en la PAES de ciencias y gran parte
+									de haber querido elegir estudiar química fue
+									gracias a usted.
+								</p>
+								<p class="fw-bold">Daniela</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+		<footer id="footer">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-12 col-md-6">
+						<div class="d-flex flex-column justify-content-center">
+							<img
+								src="./assets/img/logo_footer.png"
+								alt="Pasala"
+								width="124"
+								class="mx-auto"
+							/>
+							<p class="mt-3 text-white text-center">
+								Pasa la prueba con nosotros!
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="d-flex h-100 align-items-center">
+							<div
+								class="d-flex flex-column align-content-center ms-auto"
+							>
+								<ul class="list-unstyled text-white">
+									<li class="mb-2">
+										Whatsapp +569 61058148
+									</li>
+									<li class="mb-2">
+										Email: info@pasala.cl
+									</li>
+									<li class="mb-2">Dirección: 444, 832000</li>
+									<li class="mb-2">
+										Providencia Región Metropolitana
+									</li>
+								</ul>
+							</div>
+							<div class="d-flex flex-column ms-auto">
+								<p class="text-white sigue">Sigue a PÁSALA</p>
+								<ul
+									class="list-unstyled list-group-horizontal list-group"
+								>
+									<li class="me-4">
+										<a href="https://wa.me/56961058148" class="text-white fs-5"
+											><i
+												class="fa-brands fa-whatsapp"
+											></i
+										></a>
+									</li>
+									<li class="me-4">
+										<a
+											href="https://www.instagram.com/preuniversitario_pasala/"
+											class="text-white fs-5"
+											><i
+												class="fa-brands fa-instagram"
+											></i
+										></a>
+									</li>
+									<li class="me-4">
+										<a
+											href="https://www.tiktok.com/@preupasala"
+											class="text-white fs-5"
+											><i class="fa-brands fa-tiktok"></i
+										></a>
+									</li>
+									<li class="me-4">
+										<a
+											href="https://www.youtube.com/channel/UCJe2B19KmbarRQohkQ9b16w"
+											class="text-white fs-5"
+											><i class="fa-brands fa-youtube"></i
+										></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mb-2">
+					<div class="col-12 px-0">
+						<ul class="nav mb-2 mb-lg-0 menu-footer">
+							<li class="nav-item home">
+								<a
+									class="nav-link text-white ps-0"
+									aria-current="page"
+									href="index.html"
+								>
+									Home
+								</a>
+							</li>
+							<li class="nav-item metodologia d-none">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="index.html#metodologia"
+								>
+									Metodologías
+								</a>
+							</li>
+							<li class="nav-item pasala">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="index.html#pasala"
+								>
+									¿Por qué elegirnos?
+								</a>
+							</li>
+							<li class="nav-item pae">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="index.html#comopasarlaprueba"
+								>
+									Metodología
+								</a>
+							</li>
+							<li class="nav-item nosotros">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="index.html#sobrenosotros"
+								>
+									Nosotros
+								</a>
+							</li>
+							<li class="nav-item cursos">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="index.html#cursos"
+								>
+									Cursos
+								</a>
+							</li>
+							<li class="nav-item recomendacion">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="index.html#recomendacion"
+								>
+									Recomendación
+								</a>
+							</li>
+							<li class="nav-item faq">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="index.html#faq"
+								>
+									FAQ
+								</a>
+							</li>
+							<li class="nav-item planes">
+								<a
+									class="nav-link text-white"
+									aria-current="page"
+									href="index.html#planes"
+								>
+									Planes
+								</a>
+							</li>
+						</ul>
+						<hr class="text-white mb-4" />
+						<a href="#" class="text-white text-decoration-none"
+							>Términos y condiciones</a
+						>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/videojs-youtube@3.0.0/dist/Youtube.min.js"></script>
+	</body>
+</html>
